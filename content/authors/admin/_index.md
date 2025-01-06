@@ -78,7 +78,7 @@ work:
     company_name: PT.Kayaba Indonesia
     company_url: ''
     company_logo: ''
-    date_start: 2018-01-01
+    date_start: 2018-01-02
     date_end: 2019-01-01
     summary: |
       Responsibilities include:
