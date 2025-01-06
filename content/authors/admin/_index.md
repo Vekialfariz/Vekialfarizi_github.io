@@ -7,7 +7,7 @@ name_pronunciation:  Veki Alfarizi
 
 # Full name (for SEO)
 first_name: veki
-last_name: alfarizi
+last_name: -----
 
 # Status emoji
 status:
