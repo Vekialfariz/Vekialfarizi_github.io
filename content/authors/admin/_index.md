@@ -1,17 +1,17 @@
 ---
 # Display name
-title: Mahasiswa Rekayasa Perangkat Lunak.
+title: Veki Alfarizi.
 
 # Name pronunciation (optional)
-name_pronunciation: Veki Alfarizi
+name_pronunciation:  Veki Alfarizi
 
 # Full name (for SEO)
-first_name: Veki
-last_name: Alfarizi
+first_name: veki 
+last_name: alfarizi
 
 # Status emoji
 status:
-  icon: 🐼
+  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role:
+role: software enginer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -30,82 +30,83 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-
+  - icon: at-symbol
+    url: 'mailto:your-email@example.com'
+    label: E-mail Me
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/vekinisme/
+    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/Vekialfariz
-
-
+    url: https://github.com/gcushen
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
+  - icon: academicons/orcid
+    url: https://orcid.org/
 
 interests:
-  - Web Designer
-  - Mobile application developer
-  - Desain Grafis
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
+
 education:
-  - area: Sarjanah Rekayasa Perangkat Lunak
-    institution: Institut Teknologi Statistika Dan Bisnis Muhammadiyah
-   
+  - area: PhD Artificial Intelligence
+    institution: Stanford University
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
- 
+  - area: MEng Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.8/4.0
+
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BSc Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.4/4.0
+      
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Pramuniaga
-    company_name: PT.Indomarco
+  - position: Director of Cloud Infrastructure
+    company_name: GenCoin
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-05
-    date_end: 2017-01-01
-    summary: |2
+    date_start: 2021-01-01
+    date_end: ''
+    summary: |2-
       Responsibilities include:
-      - Memastikan Barang Datang terpajang dengan baik dan benar
-      - Memastikan Kebersihan,Kerapihan dan Keamanan toko
-      - Melayani Konsumen dengan baik
-  - position: Operator Produksi
-    company_name: PT.Candra Nugerah Cipta
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Backend Software Engineer
+    company_name: X
     company_url: ''
     company_logo: ''
-    date_start: 2017-01-01
-    date_end: 2018-01-01
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
       Responsibilities include:
-      - Mengoprasikan Mesin Welding Robot agar menghasilkan Produk yang baik
-      - Mengoprasikan Welding Manual untuk menyempurnakan Hasil Produksi dari mesin robot
-  - position: Operator Produksi
-    company_name: PT.Kayaba Indonesia
-    company_url: ''
-    company_logo: ''
-    date_start: 2018-01-02
-    date_end: 2019-01-01
-    summary: |
-      Responsibilities include:
-      - Mengoprasikan Mesin untuk memproduksi 
-      - Mengecek hasil Produksi agar produk sesuai yang diinginkan
-  - position: Operator Produksi
-    company_name: PT.Santoso Teknindo
-    company_url: ''
-    company_logo: ''
-    date_start: 2019-01-01
-    date_end: 2020-01-01
-    summary: |
-      Responsibilities include:
-      - Mengoprasikan Mesin Welding Robot agar menghasilkan Produk yang baik
-      - Mengoprasikan Welding Manual untuk menyempurnakan Hasil Produksi dari mesin robot
-  - Melayani Konsumen dengan baik
-  - position: Operator Produksi
-    company_name: PT.Fukuryo Indonesia
-    company_url: ''
-    company_logo: ''
-    date_start: 2022-01-01
-    date_end: Sampai Sekarang
-    summary: |
-      Responsibilities include:
-      - Mengoprasikan Mesin Sewing
-      - Memastikan Hasil Produksi sesuai dengan yang diinginkan
-      -
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -142,10 +143,11 @@ skills:
 
 languages:
   - name: English
-    percent: 50
-  - name: Indonesia
     percent: 100
-
+  - name: Chinese
+    percent: 75
+  - name: Portuguese
+    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -181,4 +183,4 @@ awards:
 
 ## About Me
 
-I am Veki Alfarizi, a student majoring in Software Engineering. I am interested in the field of scientific development studying computerized systems that make human life easier. I hope I can contribute to the development of technology in the world.
+Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
