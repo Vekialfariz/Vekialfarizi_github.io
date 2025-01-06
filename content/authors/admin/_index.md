@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Veki Alfarizi
+title: Veki Alfarizi.
 
 # Name pronunciation (optional)
 name_pronunciation:  Veki Alfarizi
