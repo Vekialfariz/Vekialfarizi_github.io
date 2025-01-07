@@ -6,8 +6,8 @@ title: Veki Alfarizi.
 name_pronunciation:  Veki Alfarizi
 
 # Full name (for SEO)
-first_name: veki 
-last_name: alfarizi
+first_name: adi
+last_name: fajar
 
 # Status emoji
 status:
