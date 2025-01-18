@@ -2,8 +2,6 @@
 # Display name
 title: veki alfarizi
 
-# Name pronunciation (optional)
-name_pronunciation:  Veki alfarizi
 
 # Full name (for SEO)
 first_name: Veki
