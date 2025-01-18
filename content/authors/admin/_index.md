@@ -1,13 +1,13 @@
 ---
 # Display name
-title: adi fajar
+title: veki alfarizi
 
 # Name pronunciation (optional)
-name_pronunciation:  Vadi fajar
+name_pronunciation:  Veki alfarizi
 
 # Full name (for SEO)
-first_name: adi
-last_name: fajar
+first_name: Veki
+last_name: Alfarizi
 
 # Status emoji
 status:
@@ -31,31 +31,23 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:Alfariziveki69@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/vekinisme/?next=%2F
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://github.com/Vekialfariz
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Web Design
+  - Software Programmer
+  - Game Developer
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: S1 Rekayasa Perangkat Lunak
+    institution: Istitut Teknologi Statistika dan Bisnis Muhammadiyah
+    date_start: 2022-01-01
+    date_end: 2024-01-01
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
