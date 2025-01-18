@@ -1,14 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
 	<defs>
-		<linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-			<stop offset="0%" stop-color="#ff0080" />
-			<stop offset="100%" stop-color="#8000ff" />
+		<!-- Gradasi untuk latar belakang -->
+		<linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+			<stop offset="0%" stop-color="#1a1a1a" />
+			<stop offset="100%" stop-color="#0d0d0d" />
+		</linearGradient>
+		<!-- Gradasi untuk efek cahaya -->
+		<linearGradient id="light-effect" x1="0%" y1="0%" x2="100%" y2="0%">
+			<stop offset="0%" stop-color="cyan" stop-opacity="0.8" />
+			<stop offset="50%" stop-color="cyan" stop-opacity="0.2" />
+			<stop offset="100%" stop-color="cyan" stop-opacity="0" />
 		</linearGradient>
 	</defs>
-	<rect width="800" height="400" fill="url(#gradient)" />
-	<path d="M0 100 Q200 50 400 100 T800 100" fill="none" stroke="white" stroke-width="2" />
-	<path d="M0 150 Q200 100 400 150 T800 150" fill="none" stroke="white" stroke-width="2" />
-	<path d="M0 200 Q200 150 400 200 T800 200" fill="none" stroke="white" stroke-width="2" />
-	<path d="M0 250 Q200 200 400 250 T800 250" fill="none" stroke="white" stroke-width="2" />
-	<path d="M0 300 Q200 250 400 300 T800 300" fill="none" stroke="white" stroke-width="2" />
+	<!-- Latar belakang -->
+	<rect width="800" height="400" fill="url(#bg-gradient)" />
+	<!-- Garis bercahaya -->
+	<g>
+		<path d="M100 50 L700 250 L680 260 L80 60 Z" fill="#0d0d0d" />
+		<path d="M100 50 L700 250" stroke="url(#light-effect)" stroke-width="2" />
+	</g>
+	<g>
+		<path d="M200 150 L750 350 L730 360 L180 160 Z" fill="#0d0d0d" />
+		<path d="M200 150 L750 350" stroke="url(#light-effect)" stroke-width="2" />
+	</g>
+	<!-- Teks -->
+	<text x="600" y="200" fill="white" font-size="20" font-family="Arial" opacity="0.5">
+		DARK BACKGROUND
+	</text>
 </svg>
