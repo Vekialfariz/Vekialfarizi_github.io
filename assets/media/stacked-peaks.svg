@@ -1,15 +1,14 @@
-<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Background Gradient -->
-    <defs>
-        <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="#e1e9ef" />
-        <stop offset="100%" stop-color="#c9d5dd" />
-        </linearGradient>
-    </defs>
-    <rect width="800" height="400" fill="url(#skyGradient)" />
-
-    <!-- Hills -->
-    <path d="M0 300 Q200 200 400 280 T800 300 L800 400 L0 400 Z" fill="#333" />
-    <path d="M0 330 Q250 250 500 310 T800 330 L800 400 L0 400 Z" fill="#222" opacity="0.9" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+	<defs>
+		<linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+			<stop offset="0%" stop-color="#ff0080" />
+			<stop offset="100%" stop-color="#8000ff" />
+		</linearGradient>
+	</defs>
+	<rect width="800" height="400" fill="url(#gradient)" />
+	<path d="M0 100 Q200 50 400 100 T800 100" fill="none" stroke="white" stroke-width="2" />
+	<path d="M0 150 Q200 100 400 150 T800 150" fill="none" stroke="white" stroke-width="2" />
+	<path d="M0 200 Q200 150 400 200 T800 200" fill="none" stroke="white" stroke-width="2" />
+	<path d="M0 250 Q200 200 400 250 T800 250" fill="none" stroke="white" stroke-width="2" />
+	<path d="M0 300 Q200 250 400 300 T800 300" fill="none" stroke="white" stroke-width="2" />
 </svg>
-
