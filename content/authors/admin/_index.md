@@ -1,9 +1,9 @@
 ---
 # Display name
-title: adi
+title: adi fajar
 
 # Name pronunciation (optional)
-name_pronunciation:  Veki Alfarizi
+name_pronunciation:  Vadi fajar
 
 # Full name (for SEO)
 first_name: adi
