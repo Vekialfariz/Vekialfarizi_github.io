@@ -1,19 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background-color: #001f3f;">
-	<!-- Background -->
-	<rect width="800" height="400" fill="#001f3f" />
-	<!-- Gear Shape -->
-	<circle cx="150" cy="150" r="50" fill="none" stroke="#36f" stroke-width="5" />
-	<path d="M150,100 L160,120 L190,120 L170,140 L180,160 L150,150 L120,160 L130,140 L110,120 L140,120 Z" fill="none" stroke="#36f" stroke-width="5" />
-	<!-- Arrows -->
-	<path d="M300,50 L300,150 L320,130 M300,150 L280,130" stroke="#36f" stroke-width="5" fill="none" />
-	<path d="M320,200 L420,200 L400,180 M420,200 L400,220" stroke="#36f" stroke-width="5" fill="none" />
-	<!-- Tech Lines -->
-	<line x1="450" y1="300" x2="550" y2="300" stroke="#36f" stroke-width="3" />
-	<line x1="500" y1="250" x2="500" y2="350" stroke="#36f" stroke-width="3" />
-	<path d="M600,100 L650,150 L700,100" stroke="#36f" stroke-width="5" fill="none" />
-	<!-- Circular HUD -->
-	<circle cx="650" cy="300" r="40" fill="none" stroke="#36f" stroke-width="4" />
-	<circle cx="650" cy="300" r="30" fill="none" stroke="#36f" stroke-dasharray="5,5" stroke-width="2" />
-	<line x1="650" y1="260" x2="650" y2="280" stroke="#36f" stroke-width="3" />
-	<line x1="630" y1="300" x2="650" y2="300" stroke="#36f" stroke-width="3" />
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Background Gradient -->
+    <defs>
+        <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#e1e9ef" />
+        <stop offset="100%" stop-color="#c9d5dd" />
+        </linearGradient>
+    </defs>
+    <rect width="800" height="400" fill="url(#skyGradient)" />
+
+    <!-- Hills -->
+    <path d="M0 300 Q200 200 400 280 T800 300 L800 400 L0 400 Z" fill="#333" />
+    <path d="M0 330 Q250 250 500 310 T800 330 L800 400 L0 400 Z" fill="#222" opacity="0.9" />
 </svg>
+
