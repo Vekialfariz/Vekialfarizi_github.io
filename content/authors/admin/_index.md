@@ -100,7 +100,7 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: Web Design
         description: ''
         percent: 40
         icon: circle-stack
@@ -161,4 +161,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am Veki Alfarizi a Bachelor of Software Engineering student and also an employee of a company engaged in the textile industry. I have a strong will to change my life for the better and want to develop the quality of life and I chose this major because it has good progress for life in the future.
