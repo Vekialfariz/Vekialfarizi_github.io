@@ -127,7 +127,6 @@ languages:
   - name: Indonesia
     percent: 100
 
-logical trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks# Awards.
 ---
 
 ## About Me
