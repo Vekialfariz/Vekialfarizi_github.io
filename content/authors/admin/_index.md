@@ -123,7 +123,7 @@ skills:
 
 languages:
   - name: English
-    percent: 40
+    percent: 45
   - name: Indonesia
     percent: 100
 
